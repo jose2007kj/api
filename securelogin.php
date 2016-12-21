@@ -1,7 +1,7 @@
 <?php
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
-$conn = new mysqli("localhost", "textkhmernews", "Excellent0", "khmernews");
+$conn = new mysqli("localhost", "Username", "Password", "Database");
 	//http://stackoverflow.com/questions/18382740/cors-not-working-php
 	if (isset($_SERVER['HTTP_ORIGIN'])) {
         header("Access-Control-Allow-Origin: {$_SERVER['HTTP_ORIGIN']}");
